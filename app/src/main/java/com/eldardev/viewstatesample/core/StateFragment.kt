@@ -2,7 +2,6 @@ package com.eldardev.viewstatesample.core
 
 import android.os.Bundle
 import android.view.View
-import androidx.fragment.app.Fragment
 import com.eldardev.viewstatesample.core.common.CommonFragment
 import com.eldardev.viewstatesample.core.common.State
 import com.eldardev.viewstatesample.core.common.StateEvent
