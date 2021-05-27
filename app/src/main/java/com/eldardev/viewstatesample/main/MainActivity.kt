@@ -6,7 +6,9 @@ import android.widget.TextView
 import androidx.activity.viewModels
 import com.eldardev.viewstatesample.R
 import com.eldardev.viewstatesample.core.StateActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : StateActivity<MainState>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
